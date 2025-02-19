@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>The Stars Wars</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="title">Звездные войны</h1>
+      </header>
+      <div class="search-box">
+        <h2 class="search-box__title">Кого или что будем искать?</h2>
+        <label for="category">Выберите категорию:</label>
+        <select id="category">
+          <option value="people">Персонажи</option>
+          <option value="planets">Планеты</option>
+          <option value="starships">Звездолёты</option>
+          <option value="vehicles">Транспорт</option>
+          <option value="species">Виды</option>
+        </select>
+        <label for="number">Выберите номер:</label>
+        <select id="number">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+        <button class="btn" id="btn">Найти</button>
+        <div class="result" id="result"></div>
+        <p class="error" id="error"></p>
+      </div>
+    </div>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
